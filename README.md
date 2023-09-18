@@ -8,3 +8,9 @@ And because I keep forgetting:
 echo "https://<username>:<token>@github.com" > ~/.git-credentials
 git config --global credential.helper store
 ```
+
+And because *you* keep forgetting:
+> "How do I reset my local commit? D:"
+```sh
+git reset HEAD~
+```
